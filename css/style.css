@@ -637,8 +637,12 @@ mark {
 .slider-container .carousel-item  {
     background:#fff;
 }
+.slider-container .carousel-item .content-data {
+    margin-top: 12em;
+}
 .slider-container .carousel-item .display {
     font-size: 45px;
+    margin-top: 8em;
 } 
 .slider-container .img-container{
     position: relative;
@@ -1652,6 +1656,7 @@ label {
     }
     .slider-container .carousel-item .display {
         font-size: 30px;
+        margin-top: 13em;
     } 
     .slider-container .carousel-item .primary-btn {
         height: 40px;
