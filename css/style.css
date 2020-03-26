@@ -263,7 +263,8 @@ a i{
 /*------ CONTENT STYLES -----*/
 /* Header*/
 header{
-    background-color: rgba(0, 0, 0, 0.65);
+    /* background-color: rgba(255,255,255,0.65); */
+    background-color: transparent;
     width: 100%;
     overflow-x: hidden;
     position: fixed;
@@ -276,7 +277,8 @@ header{
 }
 
 html:not([data-scroll='0']) header {
-    background: rgba(0,0,0,0.8);
+    /* background: rgba(0,0,0,0.8); */
+    background-color: white;
     box-shadow: 0 10px 100px 0 rgba(0,0,0,0.1);
     border-bottom: 1px solid #d9d9d9;
     transition: all 0.3s ease-out;
@@ -301,7 +303,7 @@ html:not([data-scroll='0']) header {
     padding-left: 1rem;
     padding-right: 1rem;
     text-decoration: none;
-    color: #fff;
+    color: black;
 } 
 .navbar-toggler{
     border: none;
@@ -1632,7 +1634,8 @@ label {
     min-width: 50px;
     }
     header {
-        background-color: rgba(0, 0, 0, 0.8);
+        /* background-color: rgba(255,255,255,0.8); */
+        background-color: transparent;
     }
     header .logo{
     max-width: 180px;
@@ -1641,6 +1644,7 @@ label {
     width: 130px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
+        color: black;
         font-weight: bold;
         display: flex;
         flex-direction: column;
@@ -1650,11 +1654,9 @@ label {
         font-size: 30px;
     } 
     .slider-container .carousel-item .primary-btn {
-        height: 30px;
+        height: 40px;
         width: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 140px;
+        padding: 0;
+        padding-top: 10px;
     }
 }
