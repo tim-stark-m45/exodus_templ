@@ -1494,6 +1494,12 @@ label {
           transition-property:         transform, opacity;
 }
 
+@media (max-width:1600px) and (min-width:990px) {
+    header .navbar .langs a {
+        display: none;
+    }
+}
+
 /*------ RESPONSIVE STYLES -----*/
 @media only screen and (max-width: 991px) {
     #start.section {
