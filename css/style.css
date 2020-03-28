@@ -1494,7 +1494,7 @@ label {
           transition-property:         transform, opacity;
 }
 
-@media (max-width:1600px) and (min-width:990px) {
+@media (min-width:990px) {
     header .navbar .langs a {
         display: none;
     }
