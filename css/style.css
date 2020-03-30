@@ -1705,7 +1705,7 @@ label {
         align-items: center;
     }
     .slider-container .carousel-item .display {
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 13em;
     } 
     .slider-container .carousel-item .primary-btn {
@@ -1729,11 +1729,4 @@ label {
         height: 400px;
         margin-bottom: 50px;
     }
-}
-
-@media (min-height: 568px) {
-    .slider-container .carousel-item .display {
-        font-size: 20px;
-        margin-top: 15em;
-    } 
 }
